@@ -1,0 +1,28 @@
+.quote__text_home {
+  background-color: var(--background-color);
+  margin: 0 auto;
+  width: 680px;
+  padding: 20px 36px 40px 52px;
+  margin-top: 24px;
+  width: 600px;
+  font: 36px/1.4 var(--font-satoshi-bold);
+}
+.quote__text_hall {
+  width: 400px;
+  font: 24px/1.4 var(--font-satoshi-bold);
+}
+.quote__text_small {
+  margin-top: 8px;
+  width: 600px;
+  font: 20px/1.4 var(--font-satoshi-regular);
+  text-align: right;
+}
+.quote__text_small_hall {
+  margin-top: 16px;
+  width: 380px;
+  font: 16px/1.4 var(--font-satoshi-regular);
+}
+
+.text_hall {
+  padding-left: 44px;
+}

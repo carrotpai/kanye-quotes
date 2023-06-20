@@ -1,0 +1,27 @@
+.btn {
+    margin-top: 144px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    button {
+        position: relative;
+        border: none;
+        cursor: pointer;
+        width: 306px;
+        height: 74px;
+        border-radius: 8px;
+        background-color: var(--black-background-color);
+        color: white;
+        font: 28px/1.5 var(--font-satoshi-bold);
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    &__kanye {
+        position: absolute;
+        top: -157px;
+        left: 330px;
+    }
+}

@@ -1,0 +1,42 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(38, 38, 38, 0.33);
+  backdrop-filter: saturate(180%) blur(5px);
+  background: hsla(0, 0%, 100%, 0.8);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.logo__image {
+  width: 80px;
+  height: 80px;
+}
+.logo__text {
+  font: 36px/1.4 var(--font-satoshi-bold);
+}
+
+.btn {
+  margin-top: 8px;
+  margin-left: 176px;
+  border: none;
+  border-radius: 4px;
+  width: 180px;
+  height: 44px;
+  background-color: var(--black-background-color);
+  color: #ffffff;
+  cursor: pointer;
+  font: 18px/1.4 var(--font-satoshi-medium);
+}
+.btn:hover {
+  opacity: 0.8;
+}

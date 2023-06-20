@@ -1,0 +1,26 @@
+.listPagination {
+  margin-top: 36px;
+  display: flex;
+  gap: 36px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-self: center;
+  padding-bottom: 164px;
+}
+@media (max-width: 1600px) {
+  .listPagination {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.listPagination_loading {
+  padding-bottom: 0;
+}
+
+.spinner {
+  padding-top: 16px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  justify-self: center;
+  align-items: center;
+}

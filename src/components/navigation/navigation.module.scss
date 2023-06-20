@@ -1,0 +1,27 @@
+.nav {
+    margin-left: 64px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+
+    &__link {
+        display: flex;
+        align-items: center;
+        font: 18px/1.5 var(--font-satoshi-regular);
+        color: var(--text-color);
+        text-decoration: none;
+
+        &_active {
+            border-bottom: 3px solid var(--black-background-color);
+        }
+
+        &:active {
+            color: var(--text-color);
+        }
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

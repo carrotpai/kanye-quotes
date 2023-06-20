@@ -1,0 +1,52 @@
+.likecount {
+    margin-left: 60%;
+    margin-top: 8px;
+    height: 45px;
+    width: 226px;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+        border: none;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 16px;
+        width: 110px;
+        background-color: var(--background-color);
+        color: (--text-color);
+        font: 16px/1.5 var(--font-satoshi-bold);
+        cursor: pointer;
+        transition: background-color 200ms ease-in-out 0ms;
+
+        &:hover {
+            background-color: #dedede;
+        }
+
+        &_hall {
+            background-color: #ffffff;
+        }
+    }
+
+    &_hall {
+        margin-left: 0;
+        margin: 8px auto;
+    }
+}
+
+.dislikes {
+    border-radius: 0 0 0 20px;
+}
+
+.likes {
+    border-radius: 0 0 20px 0;
+}
+
+.disabled {
+    background-color: #cccccc;
+    pointer-events: none;
+
+    &:hover {
+        background-color: #cccccc;
+    }
+}

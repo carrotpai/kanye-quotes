@@ -1,0 +1,15 @@
+.first {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+}
+
+.second {
+    margin-top: 24px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    & > svg {
+        display: none;
+    }
+}

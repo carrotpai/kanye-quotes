@@ -1,0 +1,35 @@
+.wreath_left {
+  /* position: absolute;
+  left: -128px; */
+}
+.wreath_right {
+  transform: scale(-1, 1) translate(-130px, 0);
+}
+
+.item {
+  align-items: center;
+  display: flex;
+}
+.item_firstGrade {
+  width: 650px;
+}
+.item_secondGrade {
+  width: 650px;
+}
+.item_thirdGrade {
+  width: 400px;
+}
+
+.likesCount_firstGrade {
+  width: 650px;
+}
+.likesCount_secondGrade {
+  width: 650px;
+}
+.likesCount_thirdGrade {
+  width: 400px;
+}
+
+.itemWrapper {
+  margin: 0 auto;
+}
